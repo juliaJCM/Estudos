@@ -1,0 +1,32 @@
+//recursividade aula 1 - 08/08/22
+package recursividade;
+
+import java.util.Scanner;
+
+public class atividade01 {
+
+	public static int soma (int i, int n) {
+		if (i==n) {
+			return i;
+		}
+		else {
+			return i + soma (i+1, n);  
+		}
+		
+	}
+	
+	public static void main(String[] args) {
+		Scanner ent = new Scanner(System.in);
+		
+		System.out.println("Informe o valor de N:");
+		int n = ent.nextInt();
+		
+		int res = soma(1,n);
+		System.out.println("O resultado será: " + res);
+		
+		
+		
+ent.close();
+	}
+
+}
