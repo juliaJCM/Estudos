@@ -1,0 +1,36 @@
+//recursividade aula 1 - 08/08/22
+package recursividade;
+
+import java.util.Scanner;
+
+public class atividade02 {
+	
+	public static void par (int [] vet, int i) {
+		if (i < vet.length) {
+			if(vet [i] % 2 == 0) {
+				System.out.print("Os pares serão: " + vet[i]);
+		}
+			par(vet,i+1);
+	}
+	}
+	public static void main(String[] args) {
+		Scanner ent = new Scanner(System.in);
+		int n;
+		
+	System.out.println("Informe o valor de N:");
+		n = ent.nextInt();
+		
+		int [] vetor = new int [n];
+		
+		for(int i = 0; i<vetor.length; i++) {
+			
+		System.out.println("Digite o valor do vetor: ");
+		vetor[i] = ent.nextInt();
+		}
+		
+		par(vetor,0);
+		
+ent.close();		
+	}
+
+}
