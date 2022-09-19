@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int n, n2;
+
+    int *it=NULL;
+    int *it2=NULL;
+
+    printf("Digite um número inteiro: ");
+    scanf("%i", &n);
+
+    printf("Digite outro número inteiro: ");
+    scanf("%i", &n2);
+
+    it=&n;
+    it2=&n2;
+
+    if(*it > *it2){
+        printf("O número 1 será maior que o número 2: %i > %i", *it, *it2);
+    }
+    else {
+        printf("O número 2 será maior que o número 1: %i > %i", *it2, *it);
+    }
+
+    return 0;
+}
