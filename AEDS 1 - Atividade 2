@@ -44,7 +44,7 @@ public class atividade2 {
 		
 		proced(vet);
 		func(vet);
-		System.out.println("Os valores negativos s„o:");
+		System.out.println("Os valores negativos s√£o:");
 		exibe(func(vet));
 		
 		
