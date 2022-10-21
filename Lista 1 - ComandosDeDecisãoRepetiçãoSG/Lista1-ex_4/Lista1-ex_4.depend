@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1662415732 source:c:\users\julia\onedrive\documentos\code blocks\lista1-ex_4\ex_4.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<math.h>
+
