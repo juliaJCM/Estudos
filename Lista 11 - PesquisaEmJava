@@ -123,11 +123,11 @@ public class Lista {
 		
 		System.out.println("\nBusca Binaria: " + pesqBinaria(x, n));
 		
-		System.out.println("\nRemoção de nome: " + pesqBinariaRemover(x, n));
+		System.out.println("\nRemoÃ§Ã£o de nome: " + pesqBinariaRemover(x, n));
 		
 		imprimir(x);
 		
-		System.out.println("\nQue nome deseja alocar à lista?");
+		System.out.println("\nQue nome deseja alocar Ã  lista?");
 		String nome = ent1.nextLine();
 		
 		inserirPos(x, nome, 1);
